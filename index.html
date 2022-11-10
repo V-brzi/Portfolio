@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+    rel="icon"
+    type="image/svg+xml"
+    href="https://th.bing.com/th/id/OIP.hJvnABoSaJ1-v11e6ijCegHaHa?pid=ImgDet&rs=1"
+  />
+    <script
+      src="https://kit.fontawesome.com/37549dc1ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-brands fa-dev">VB</i>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="nav" id="nav">
+        <ul class="nav-list" id="nav">
+          <li class="list-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="#services" class="nav-link">My services</a>
+          </li>
+          <li class="list-item">
+            <a href="#about" class="nav-link">About me</a>
+          </li>
+          <li class="list-item">
+            <a href="#work" class="nav-link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I'm<strong>Vatroslav Brzović</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="/imgs/me.png"
+        alt="a picture of Vatroslav smiling"
+        class="section__img--intro"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Following the best industry pratices to design and develop user
+            friendly web apps. Love every opportunity to bring creative
+            solutions to complex problems.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Tech stack</h3>
+          <div class="stack">
+            <div>
+              <p class="stack-icon"><i class="fa-brands fa-html5 fa-xl"></i></p>
+              <p class="stack-name">Html 5</p>
+            </div>
+            <div>
+              <p class="stack-icon"><i class="fa-brands fa-css3-alt fa-xl"></i></p>
+              <p class="stack-name">Css 3</p>
+            </div>
+            <div>
+              <p class="stack-icon"><i class="fa-brands fa-sass fa-xl"></i></p>
+              <p class="stack-name">Sass</p>
+            </div>
+            <div>
+              <p class="stack-icon"><i class="fa-brands fa-square-js fa-xl"></i></i></p>
+              <p class="stack-name">JavaScript</p>
+            </div>
+            <div>
+              <p class="stack-icon"><i class="fa-brands fa-react fa-xl"></i></i></p>
+              <p class="stack-name">React</p>
+            </div>
+            <div>
+              <p class="stack-icon"><i class="fa-brands fa-bootstrap fa-xl"></i></i></p>
+              <p class="stack-name">Bootstrap</p>
+            </div>
+            <div>
+              <p class="stack-icon"><i class="fa-brands fa-git-alt fa-xl"></i></i></p>
+              <p class="stack-name">Git</p>
+            </div>
+          </div>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            Building e-commerce web sites with the focus on UI/UX. Making
+            reusable components and keeping the code as dry as possible. Always
+            have an eye on the details in order to make users happy and cart
+            full.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & developer based in Zagreb, Croatia
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Born on April 23th 1990 in Split, Croatia. I was raised in Omiš which
+          is small town that is located 25km south from Split.
+          Got my education background as Master in proffesion of Electrical Engineering (Electronics) 
+          at University of Split in 2016.
+        </p>
+        <p>
+          In 2017 I moved to Zagreb, the capital of Croatia to work as field 
+          service engineer in medical industry. After 5 years of work experience
+          as field service engineer in 2022 I decided to switch my career and 
+          become Front End Developer.
+        </p>
+      </div>
+
+      <img
+        src="imgs/unnamed (2).jpg"
+        alt="Vatroslav in a suit"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title--work">My work</h2>
+      <p class="section__subtitle--work">A selection of my range of work</p>
+
+      <div class="portfolio">
+        <a href="https://v-brzi.github.io/Imaginary-store/" class="portfolio__item" target="_blank">
+          <img src="imgs/IS.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://v-brzi.github.io/Tenzies-game/" class="portfolio__item" target="_blank">
+          <img src="imgs/TZ.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://v-brzi.github.io/Meme-generator/" class="portfolio__item" target="_blank">
+          <img src="imgs/MG.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="https://v-brzi.github.io/Character-game-app/" class="portfolio__item" target="_blank">
+          <img src="imgs/CA.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <a href="mailto:vatro.brzi@gmail.com" class="footer__link"
+        >vatro.brzi@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.facebook.com/vatroslav.brzovic/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/vatroslav-brzovi%C4%87-a2707218b/"
+            target="_blank"><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/V-brzi" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
