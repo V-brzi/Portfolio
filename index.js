@@ -27,10 +27,10 @@ navLinks.forEach(navLink => {
     })
 })
 
-document.addEventListener('touchstart', (event) => {
+document.getElementById("portfolio").addEventListener('touchstart', (event) => {
     event.target.classList.add('on-touch');
 });
 
-document.addEventListener('touchend', (event) => {
+document.getElementById("portfolio").addEventListener('touchend', (event) => {
     event.target.classList.remove('on-touch');
 });
