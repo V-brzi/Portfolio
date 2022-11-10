@@ -371,7 +371,8 @@ header{
 }
 
 .portfolio__item:hover,
-.portfolio__item:active{
+.portfolio__item:active,
+.portfolio__item:focus{
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: var(--bs);
