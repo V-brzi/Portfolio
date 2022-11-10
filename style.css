@@ -362,7 +362,7 @@ header{
 }
 
 .portfolio__img{
-    max-height: 70vw;
+    max-height: 75vw;
 }
 
 .portfolio__item,
@@ -370,7 +370,8 @@ header{
     border-radius: 5px;
 }
 
-.portfolio__item:hover{
+.portfolio__item:hover,
+.portfolio__item:active{
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: var(--bs);
