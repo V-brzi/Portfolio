@@ -26,3 +26,11 @@ navLinks.forEach(navLink => {
         btn.innerHTML = switchBtn
     })
 })
+
+document.addEventListener('touchstart', (event) => {
+    event.target.classList.add('on-touch');
+});
+
+document.addEventListener('touchend', (event) => {
+    event.target.classList.remove('on-touch');
+});

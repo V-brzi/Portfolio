@@ -370,14 +370,16 @@ header{
     border-radius: 5px;
 }
 
-.portfolio__item:hover,
-.portfolio__item:active,
-.portfolio__item:focus{
+.portfolio__item:hover{
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: var(--bs);
 }
 
+.on-touch{
+    transform: scale(1.1);
+    box-shadow: var(--bs);
+}
 /* Footer */
 
 footer{
