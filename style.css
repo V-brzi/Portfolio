@@ -213,7 +213,6 @@ header{
         grid-area: img;
         min-width: 250px;
         position: relative;
-        box-shadow: var(--bs);
     }
     .section__subtitle--intro{
         position: relative;
@@ -332,7 +331,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #474747;
+    background-color: #383838;
     padding: 3rem;
 }
 
